@@ -139,7 +139,7 @@ const perguntas = [
   },
   {
     id: 2.11,
-    pergunta: "Seu animal é uma tropical?",
+    pergunta: "Seu animal é tropical?",
     opcoes: [
       { resposta: "Não", proximaPergunta: 2.12 },
       { resposta: "Sim", proximaPergunta: 2.111 }
@@ -261,26 +261,34 @@ const perguntas = [
     id: 3.112,
     pergunta: "Seu animal é um tartaruga!",
     opcoes: [
-        { resposta: "", proximaPergunta: },
-        { resposta: "", proximaPergunta: }
+        { resposta: "", proximaPergunta: 0},
+        { resposta: "", proximaPergunta: 0}
     ]
   },
   {
-    id: 4,
-    pergunta: "Seu animal é um anfíbio!",
+    id: 3.21,
+    pergunta: "Seu animal é um dinosauro?!",
     opcoes: [
-        { resposta: "Não", proximaPergunta: 8 },
-        { resposta: "Sim", proximaPergunta: 7 }
+        { resposta: "Não", proximaPergunta: 3.3 },
+        { resposta: "Sim", proximaPergunta: 3.211 }
     ]
   },
   {
-    id: 8,
-    pergunta: "Seu animal é um Peixe!",
+    id: 3.211,
+    pergunta: "Seu animal é um T-Rex!",
     opcoes: [
-        { resposta: "Acabou!", proximaPergunta: 0 },
+        { resposta: "", proximaPergunta: 0 },
         { resposta: "", proximaPergunta: 0 }
     ]
   },
+  {
+    id: 3.31,
+    pergunta: "Seu animal é uma cobra!",
+    opcoes: [
+        { resposta: "", proximaPergunta: 0},
+        { resposta: "", proximaPergunta: 0}
+    ]
+  }
   
   // Adicione mais perguntas conforme necessário
 ];
